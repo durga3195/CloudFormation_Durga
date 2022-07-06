@@ -11,3 +11,10 @@ Resources:
     Properties: 
       ImageId: !FindInMap [RegionMap, !Ref "AWS::Region", ami]
       InstanceType: m1.small 
+
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/mappings-section-structure.html
+# Pseudo parameters
+# AWS::AccountId , AWS::NotificationARNs , AWS::NoValue , AWS::Partition , AWS::Region , AWS::StackId , AWS::StackName , AWS::URLSuffix
+
+
+
